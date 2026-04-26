@@ -21,6 +21,6 @@ function addTask() {
 
     li.appendChild(delBtn);
     document.getElementById("taskList").appendChild(li);
-
+//Added validation to prevent empty task entries
     input.value = "";
 }
