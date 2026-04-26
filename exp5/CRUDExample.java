@@ -50,4 +50,4 @@ public class CRUDExample {
 
         }
     }
-}
+}//Established MySQL database connection using JDBC driver
