@@ -43,6 +43,7 @@ public class CRUDExample {
             e.printStackTrace();
 
         } finally {//Implemented INSERT operation for student records
+            //Implemented SELECT operation to retrieve student data
 
             try { if(rs != null) rs.close(); } catch(Exception e) {}
             try { if(stmt != null) stmt.close(); } catch(Exception e) {}
