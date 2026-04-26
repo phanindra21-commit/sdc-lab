@@ -10,7 +10,7 @@ public class SessionServlet extends HttpServlet {
         response.setContentType("text/html");
 
         String username = request.getParameter("username");
-
+//Handled form data retrieval using request parameters
         HttpSession session = request.getSession();
         session.setAttribute("username", username);
 
