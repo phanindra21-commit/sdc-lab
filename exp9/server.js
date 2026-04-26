@@ -1,4 +1,5 @@
 const http = require('http');
+//Implemented EventEmitter for custom event handling
 const os = require('os');
 const path = require('path');
 const events = require('events');
