@@ -14,7 +14,7 @@ async function getWeather() {
         console.log("Error fetching weather data", error);
     }
 }
-
+//Added fetch API call with async/await to retrieve real-time weather data
 function createGraph(temp) {
 
     const ctx = document.getElementById("weatherChart").getContext("2d");
