@@ -39,7 +39,7 @@ public class LoginServlet extends HttpServlet {
             } else {
                 out.println("<h3>Invalid Username or Password</h3>");
             }
-
+//Integrated web application with database using Java Servlet and JDBC
             con.close();
 
         } catch(Exception e){
