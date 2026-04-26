@@ -11,7 +11,7 @@ eventEmitter.on('greet', () => {
 //Implemented basic HTTP server using Node.js http module
 
 const server = http.createServer((req, res) => {
-
+//Added OS module to fetch system platform information
     res.writeHead(200, {'Content-Type': 'text/plain'});
 
     res.write("Welcome to Node.js Server\n");
