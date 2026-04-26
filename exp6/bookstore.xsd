@@ -12,7 +12,7 @@
 
                     <xsd:complexType>
                         <xsd:sequence>
-
+<!--Added data type constraints using XML Schema Definition (XSD)-->
                             <xsd:element name="title" type="xsd:string"/>
                             <xsd:element name="author" type="xsd:string"/>
                             <xsd:element name="price" type="xsd:integer"/>
