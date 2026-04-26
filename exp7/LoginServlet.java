@@ -47,4 +47,5 @@ public class LoginServlet extends HttpServlet {
         }
     }
     //Added database connection using JDBC in LoginServlet
+    //Implemented user authentication using SQL query
 }
