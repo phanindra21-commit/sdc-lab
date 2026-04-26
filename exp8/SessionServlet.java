@@ -19,4 +19,4 @@ public class SessionServlet extends HttpServlet {
         out.println("<h3>Session created successfully</h3>");
         out.println("Username stored in session: " + username);
     }
-}
+}//Added session creation using HttpSession in SessionServlet
