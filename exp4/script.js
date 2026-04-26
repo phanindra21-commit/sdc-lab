@@ -31,5 +31,5 @@ function createGraph(temp) {
         }
     });
 }
-
+//Processed API response and extracted temperature data for visualization
 getWeather();
