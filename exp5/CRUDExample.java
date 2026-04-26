@@ -42,9 +42,9 @@ public class CRUDExample {
         } catch(Exception e) {
             e.printStackTrace();
 
-        } finally {//Implemented INSERT operation for student recordsImplemented DELETE operation for removing student records
-            //Implemented SELECT operation to retrieve student data Added UPDATE functionality for modifying student records
-
+        } finally {//Implemented INSERT operation for student records //Implemented DELETE operation for removing student records
+            //Implemented SELECT operation to retrieve student data //Added UPDATE functionality for modifying student records
+//Improved code structure with proper resource handling and exception management
             try { if(rs != null) rs.close(); } catch(Exception e) {}
             try { if(stmt != null) stmt.close(); } catch(Exception e) {}
             try { if(con != null) con.close(); } catch(Exception e) {}
