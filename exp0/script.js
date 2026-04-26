@@ -6,6 +6,7 @@ function addTask() {
         alert("Please enter a task");
         return;
     }
+    //Implemented CSS styling for To-Do app layout and components
 
     let li = document.createElement("li");
     li.innerHTML = task;
