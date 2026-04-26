@@ -5,3 +5,4 @@
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT author (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
+<!--Implemented DTD schema for validating bookstore XML structure-->
