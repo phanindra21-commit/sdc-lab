@@ -18,4 +18,4 @@ public class CookieServlet extends HttpServlet {
         out.println("<h3>Cookie stored successfully</h3>");
         out.println("Username: " + username);
     }
-}
+}//Implemented CookieServlet to store username in browser cookies
