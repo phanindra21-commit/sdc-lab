@@ -13,7 +13,7 @@ eventEmitter.on('greet', () => {
 const server = http.createServer((req, res) => {
 //Added OS module to fetch system platform information
     res.writeHead(200, {'Content-Type': 'text/plain'});
-
+//Integrated Path module to display current file details
     res.write("Welcome to Node.js Server\n");
     res.write("Operating System: " + os.platform() + "\n");
     res.write("Current File: " + path.basename(__filename) + "\n");
