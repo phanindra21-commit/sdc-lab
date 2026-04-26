@@ -14,7 +14,7 @@ function addTask() {
     let delBtn = document.createElement("button");
     delBtn.innerHTML = "X";
     delBtn.classList.add("delete");
-
+//Implemented functionality to add tasks dynamically using JavaScript
     delBtn.onclick = function () {
         li.remove();
     };
