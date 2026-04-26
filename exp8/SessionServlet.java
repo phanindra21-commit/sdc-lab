@@ -13,7 +13,7 @@ public class SessionServlet extends HttpServlet {
 //Handled form data retrieval using request parameters
         HttpSession session = request.getSession();
         session.setAttribute("username", username);
-
+//Improved session tracking implementation with dynamic user input handling
         PrintWriter out = response.getWriter();
 
         out.println("<h3>Session created successfully</h3>");
