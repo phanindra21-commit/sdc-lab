@@ -16,7 +16,7 @@ async function getWeather() {
 }
 //Added fetch API call with async/await to retrieve real-time weather data
 function createGraph(temp) {
-
+//Refactored code using ES6 features (arrow functions, async/await) and improved structure
     const ctx = document.getElementById("weatherChart").getContext("2d");
 //Implemented Chart.js bar graph to display weather temperature data
     new Chart(ctx, {
