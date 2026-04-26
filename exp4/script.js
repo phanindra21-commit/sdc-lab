@@ -18,7 +18,7 @@ async function getWeather() {
 function createGraph(temp) {
 
     const ctx = document.getElementById("weatherChart").getContext("2d");
-
+//Implemented Chart.js bar graph to display weather temperature data
     new Chart(ctx, {
         type: 'bar',
         data: {
