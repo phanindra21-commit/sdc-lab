@@ -3,6 +3,7 @@
 <!ELEMENT book (title,author,price)>
 <!--Added book elements with title, author, and price fields-->
 <!ELEMENT title (#PCDATA)>
+<!--Defined element hierarchy and constraints in DTD file-->
 <!ELEMENT author (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
 <!--Implemented DTD schema for validating bookstore XML structure-->

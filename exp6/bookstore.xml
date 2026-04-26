@@ -3,7 +3,7 @@
 <!DOCTYPE bookstore SYSTEM "bookstore.dtd">
 
 <bookstore>
-
+<!--Defined element hierarchy and constraints in DTD file-->
     <book>
         <title>Java Programming</title>
         <author>James Gosling</author>
