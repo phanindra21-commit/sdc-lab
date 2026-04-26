@@ -16,6 +16,7 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, {'Content-Type': 'text/plain'});
 //Integrated Path module to display current file details
     res.write("Welcome to Node.js Server\n");
+    //Triggered and handled custom 'greet' event in server response
     res.write("Operating System: " + os.platform() + "\n");
     res.write("Current File: " + path.basename(__filename) + "\n");
 
