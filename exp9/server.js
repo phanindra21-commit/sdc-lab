@@ -8,6 +8,7 @@ const eventEmitter = new events.EventEmitter();
 eventEmitter.on('greet', () => {
     console.log("Hello Event Triggered");
 });
+//Implemented basic HTTP server using Node.js http module
 
 const server = http.createServer((req, res) => {
 
