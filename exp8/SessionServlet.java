@@ -8,7 +8,7 @@ public class SessionServlet extends HttpServlet {
     throws ServletException, IOException {
 
         response.setContentType("text/html");
-
+//Integrated session tracking mechanisms using servlet architecture
         String username = request.getParameter("username");
 //Handled form data retrieval using request parameters
         HttpSession session = request.getSession();
