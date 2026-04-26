@@ -4,7 +4,7 @@
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>LoginServlet</servlet-class>
     </servlet>
-
+<!--Implemented servlet mapping using web.xml configuration-->
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/login</url-pattern>
