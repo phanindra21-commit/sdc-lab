@@ -46,4 +46,5 @@ public class LoginServlet extends HttpServlet {
             out.println(e);
         }
     }
+    //Added database connection using JDBC in LoginServlet
 }
