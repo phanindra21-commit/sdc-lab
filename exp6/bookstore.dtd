@@ -1,7 +1,7 @@
 <!ELEMENT bookstore (book+)>
 
 <!ELEMENT book (title,author,price)>
-
+<!--Added book elements with title, author, and price fields-->
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT author (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
