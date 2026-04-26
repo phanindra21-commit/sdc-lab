@@ -3,13 +3,13 @@
 <!DOCTYPE bookstore SYSTEM "bookstore.dtd">
 
 <bookstore>
-<!--Defined element hierarchy and constraints in DTD file-->
+
     <book>
         <title>Java Programming</title>
         <author>James Gosling</author>
         <price>500</price>
     </book>
-
+<!--Improved XML structure and ensured compatibility with DTD and XSD validation-->
     <book>
         <title>Web Development</title>
         <author>John Smith</author>
