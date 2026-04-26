@@ -42,7 +42,7 @@ public class CRUDExample {
         } catch(Exception e) {
             e.printStackTrace();
 
-        } finally {
+        } finally {//Implemented INSERT operation for student records
 
             try { if(rs != null) rs.close(); } catch(Exception e) {}
             try { if(stmt != null) stmt.close(); } catch(Exception e) {}
